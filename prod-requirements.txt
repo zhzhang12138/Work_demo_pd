@@ -1,0 +1,59 @@
+tornado~=6.2  # apache
+alembic~=1.8.1  # MIT
+SQLAlchemy>=1.3, <1.4 # MIT
+attrs==21.4.0  # MIT
+peewee-async~=0.8.0  # MIT
+aiopg~=1.4.0  # BSD
+asyncpg~=0.25.0  # Apache 2.0
+babel==2.9.1  # BSD
+celery~=5.2.7  # BSD
+redis[hiredis]  # MIT
+python-redis-lock~=3.7.0  # BSD-2-Clause License
+scikit-learn==0.22.2.post1; python_version < "3.10"  # MIT
+scikit-learn~=1.2.0; python_version >= "3.10"  # MIT
+numpy~=1.19.2; python_version < "3.10" # BSD
+numpy~=1.21.2; python_version >= "3.10"
+pandas~=1.4.4  # BSD
+pyMySQL  # MIT
+docopt  # MIT
+jieba_fast  # MIT
+webargs~=8.2.0  # MIT
+pika==1.2.0  # BSD
+dateparser==1.1.1  # BSD
+# TODO: remove this after we migrate to peewee.
+gino==1.1.0rc1  # BSD
+pypinyin==0.42.0
+xlutils  # MIT
+jsondiff
+openpyxl~=3.1.0
+
+gunicorn>=20.0.4
+python-docx<0.9,>=0.8
+click  # BSD-3-Clause License
+qrcode # BSD
+invoke>=0.15
+cryptography~=39.0.0  # Apache 2.0&BSD-2-Clause
+bs4
+txt2pdf  # MIT
+httpx
+backports.zoneinfo; python_version<"3.9"  # Apache-2.0
+pdfkit==1.0.0  # MIT, also need install wkhtmltopdf
+cython~=0.29.32  # Apache 2.0
+msgspec  # BSD-3-Clause License
+aiofile  # Apache-2.0
+apispec  # MIT
+scipy==1.8.1; python_version < "3.10"  # BSD
+scipy~=1.10.0; python_version >= "3.10"
+colormath~=3.0.0  # BSD
+interval~=1.0.0  # LGPL
+oracledb~=1.2.1
+cx-Oracle~=8.3.0
+
+--index-url https://cheftin:appwillgoogle@100.64.0.1:4874/simple --trusted-host 100.64.0.1
+aipod==1.2.3; python_version < "3.10"
+aipod~=1.3.1; python_version >= "3.10"
+farm
+pdfparser>=1.4.47
+wordinsight
+calliper-diff
+utensils>=0.0.69
